@@ -1,0 +1,21 @@
+# Python / notebook
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node / frontend
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Env files (commit only .env.example)
+.env
+*.log
+
+# Raw dataset — large, download instructions are in the README
+notebooks/data/house_prices.csv
+
+# OS
+.DS_Store
